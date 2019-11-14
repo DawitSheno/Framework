@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="login page Test(failed)">
+    <classes>
+      <class name="testNGGroupID.testNGArtifactID.ToursLoginLogoutTest">
+        <methods>
+          <include name="closingnewtourspage"/>
+          <include name="openingnewtoursHomepge"/>
+          <include name="loginTestwithwrongcredentials"/>
+        </methods>
+      </class> <!-- testNGGroupID.testNGArtifactID.ToursLoginLogoutTest -->
+    </classes>
+  </test> <!-- login page Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

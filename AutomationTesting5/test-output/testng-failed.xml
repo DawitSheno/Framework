@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testNGGroupID.testNGArtifactID.StaleException2">
+        <methods>
+          <include name="Setup"/>
+          <include name="verifyTextbox"/>
+          <include name="Clsoebrowser"/>
+        </methods>
+      </class> <!-- testNGGroupID.testNGArtifactID.StaleException2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
