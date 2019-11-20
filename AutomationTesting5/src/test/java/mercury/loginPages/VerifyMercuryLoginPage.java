@@ -26,6 +26,6 @@ LoginPage login = new LoginPage(driver);
 login.typeusername();
 login.typePassword();
 login.ClickonLoginpage();
-driver.close();
+driver.quit();
 }
 }
