@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="UsingXpath">
+      <class name="MouseMovementConcept">
         <methods>
-          <include name="clickOnSearch"/>
-          <include name="Setup"/>
-          <include name="CloseBrowser"/>
+          <include name="openBroswer"/>
         </methods>
-      </class> <!-- UsingXpath -->
+      </class> <!-- MouseMovementConcept -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
