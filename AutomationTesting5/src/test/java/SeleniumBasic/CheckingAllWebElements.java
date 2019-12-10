@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class CheckingAllWebElements {
@@ -17,7 +18,7 @@ public class CheckingAllWebElements {
 		//5- finding the " Sign-In" button and click on it
 		
        
-WebDriver Driver = new FirefoxDriver();
+WebDriver Driver = new ChromeDriver();
 Driver.get("http://newtours.demoaut.com/");
 Driver.findElement(By.name("userName")).sendKeys("a");
 Driver.findElement(By.name("password")).sendKeys("a");
@@ -26,6 +27,7 @@ Driver.findElement(By.name("password")).sendKeys("a");
 Driver.findElement(By.name("login")).click();
 Thread.sleep(5000);
 Driver.findElement(By.linkText("SIGN-OFF")).click();
+
 
         
 
